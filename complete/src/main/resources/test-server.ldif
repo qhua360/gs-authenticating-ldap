@@ -119,7 +119,6 @@ objectclass: top
 objectclass: groupOfUniqueNames
 cn: managers
 ou: manager
-uniqueMember: uid=ben,ou=people,dc=springframework,dc=org
 uniqueMember: cn=mouse\, jerry,ou=people,dc=springframework,dc=org
 
 dn: cn=submanagers,ou=subgroups,ou=groups,dc=springframework,dc=org

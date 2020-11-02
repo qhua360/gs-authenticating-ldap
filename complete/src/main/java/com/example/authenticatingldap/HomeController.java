@@ -17,6 +17,11 @@ public class HomeController {
 		return "Hello developer!";
 	}
 
+	@GetMapping("/managers")
+	public String managers() {
+		return "Hello manager!";
+	}
+
 	@GetMapping("/user")
 	public String user(Authentication authentication) {
 		System.out.println(authentication.getAuthorities());
